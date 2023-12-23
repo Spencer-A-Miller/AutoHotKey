@@ -2,7 +2,7 @@
 SendMode Input	;
 SetWorkingDir %A_ScriptDir%	;
 
-^!p::
+^!p:: ; ctrl + alt + p (only works when when using gitbash)
 {
 	Process, Exist, bash.exe
 	if ErrorLevel
