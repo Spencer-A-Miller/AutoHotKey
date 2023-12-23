@@ -2,7 +2,7 @@
 SendMode Input	;
 SetWorkingDir %A_ScriptDir%	;
 
-^!v::
+^!v::  ; ctrl + alt + v
 {
 	Process, Exist, bash.exe
 	if ErrorLevel
